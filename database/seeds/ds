@@ -1,0 +1,22 @@
+$user = DB::table('user')->where('name', 'john doe')
+
+$title = DB::table('roles')->pluck();
+
+$user = DB::table('user')->count();
+$price = DB::table('order')->max('price');
+
+$price = DB::table('order')->where('finalized')
+count();
+
+$user = DB::table('users')
+->join('contacts' , 'user.id', '=' , 'contacts_id')
+->join('order' , 'user_id' , '=' , 'order_id')
+
+make:seeder Artisan command
+php artisan make:
+
+dito ilalagay ang mga records
+public function run()
+{
+	DB::table	
+}
